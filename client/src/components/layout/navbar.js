@@ -11,8 +11,12 @@ export const navbar = (routes) => {
   for (const route of routes) {
     const anchor = document.createElement("a");
     anchor.innerHTML = route.name;
+    //  console.log("route-name", route.name);
     anchor.href = route.path;
+    console.log("route-path", route.path);
+
     anchor.setAttribute("data-navigo", "");
+
     container.appendChild(anchor);
   }
 

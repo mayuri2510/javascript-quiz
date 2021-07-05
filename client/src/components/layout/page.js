@@ -11,6 +11,9 @@ import { footer } from "./footer.js";
  */
 export const page = (bodyComponent, routes) => {
   const container = document.createElement("div");
+  container.classList = "mayuri";
+
+  console.log("r---", routes);
 
   container.appendChild(navbar(routes));
   if (typeof bodyComponent === "function") {
@@ -24,3 +27,10 @@ export const page = (bodyComponent, routes) => {
 
   return container;
 };
+
+// body component - <div class=body>
+// routes is array who contains ->
+//0: {name: "home", path: "/", callback: ƒ}
+//1: {name: "quiz", path: "/quiz", callback: ƒ}
+//2: {name: "questions", path: "/questions", callback: ƒ}
+//length: 3;
