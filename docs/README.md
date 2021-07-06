@@ -22,14 +22,19 @@
   - pages
     - home
       - [index.js](#clientsrccomponentspageshomeindexjs)
+      - [instructions.js](#clientsrccomponentspageshomeinstructionsjs)
     - questions
       - [index.js](#clientsrccomponentspagesquestionsindexjs)
     - quiz
       - [index.js](#clientsrccomponentspagesquizindexjs)
   - shared
     - [input-greeting.js](#clientsrccomponentssharedinput-greetingjs)
+    - [n-questions.js](#clientsrccomponentssharedn-questionsjs)
+    - [restart-btn.js](#clientsrccomponentssharedrestart-btnjs)
 - handlers
   - [change-greeting.js](#clientsrchandlerschange-greetingjs)
+  - [number-questions.js](#clientsrchandlersnumber-questionsjs)
+  - [restart-quiz.js](#clientsrchandlersrestart-quizjs)
 - init
   - [index.js](#clientsrcinitindexjs)
   - [router.js](#clientsrcinitrouterjs)
@@ -114,6 +119,10 @@ The home page.
 
 </details>
 
+<details><summary><a href="../../client/src/components/pages/home/instructions.js" id="clientsrccomponentspageshomeinstructionsjs">../client/src/components/pages/home/instructions.js</a></summary>
+
+</details>
+
 ---
 
 ### /questions
@@ -156,6 +165,14 @@ The quiz page.
 
 </details>
 
+<details><summary><a href="../../client/src/components/shared/n-questions.js" id="clientsrccomponentssharedn-questionsjs">../client/src/components/shared/n-questions.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/shared/restart-btn.js" id="clientsrccomponentssharedrestart-btnjs">../client/src/components/shared/restart-btn.js</a></summary>
+
+</details>
+
 ---
 
 ---
@@ -163,6 +180,14 @@ The quiz page.
 # /handlers
 
 <details><summary><a href="../../client/src/handlers/change-greeting.js" id="clientsrchandlerschange-greetingjs">../client/src/handlers/change-greeting.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/number-questions.js" id="clientsrchandlersnumber-questionsjs">../client/src/handlers/number-questions.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/restart-quiz.js" id="clientsrchandlersrestart-quizjs">../client/src/handlers/restart-quiz.js</a></summary>
 
 </details>
 
