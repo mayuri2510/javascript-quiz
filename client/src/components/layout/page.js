@@ -11,9 +11,7 @@ import { footer } from "./footer.js";
  */
 export const page = (bodyComponent, routes) => {
   const container = document.createElement("div");
-  container.classList = "mayuri";
-
-  console.log("r---", routes);
+  container.classList = "m-div";
 
   container.appendChild(navbar(routes));
   if (typeof bodyComponent === "function") {

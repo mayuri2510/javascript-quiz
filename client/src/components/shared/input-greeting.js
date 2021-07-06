@@ -13,6 +13,7 @@ export const inputGreeting = () => {
   input.addEventListener("keyup", changeGreeting);
 
   const container = document.createElement("div");
+
   container.appendChild(input);
   container.appendChild(mirror);
   return container;

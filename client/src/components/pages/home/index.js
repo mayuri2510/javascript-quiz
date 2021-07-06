@@ -1,6 +1,8 @@
 import { inputGreeting } from "../../shared/input-greeting.js";
 import { restartButton } from "../../shared/restart-btn.js";
+//import { count_questions } from "../../shared/n-questions.js";
 import { makeInstructions } from "./instructions.js";
+import { n_questions } from "../../../handlers/number-questions.js";
 /**
  * The home page.
  *
@@ -10,11 +12,15 @@ import { makeInstructions } from "./instructions.js";
 export const home = () => {
   const container = document.createElement("div");
   container.className = "body";
-  container.innerHTML = "home: ";
 
+  const head_ing = document.createElement("h1");
+  head_ing.innerHTML = "JavaScript Quiz Test";
+  head_ing.classList = "title";
+
+  container.appendChild(head_ing);
   container.appendChild(makeInstructions());
   container.appendChild(restartButton());
   container.appendChild(inputGreeting());
-
+  container.appendChild(n_questions());
   return container;
 };

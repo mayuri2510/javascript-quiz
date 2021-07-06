@@ -1,4 +1,4 @@
-> this is one possible backlog, maybe your group has a different idea!
+ > this is one possible backlog, maybe your group has a different idea!
 
 # Backlog
 
