@@ -6,10 +6,9 @@ export const NextButton = (rerenderQuiz, showScore) => {
   button.innerText = "next";
   button.classList = "next-btn";
   button.addEventListener("click", () => {
-    if (state.questions.length === (state.currentQuestion + 1)) {
+    if (state.questions.length === state.currentQuestion + 1) {
       showScore();
-    }
-    else {
+    } else {
       nextQuestionButton(rerenderQuiz);
     }
   });
