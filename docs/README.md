@@ -28,6 +28,7 @@
       - [number-of-questions.js](#clientsrccomponentspageshomenumber-of-questionsjs)
     - questions
       - [index.js](#clientsrccomponentspagesquestionsindexjs)
+      - [questions.js](#clientsrccomponentspagesquestionsquestionsjs)
     - quiz
       - [back-btn.js](#clientsrccomponentspagesquizback-btnjs)
       - [index.js](#clientsrccomponentspagesquizindexjs)
@@ -148,6 +149,10 @@ The home page.
 The questions page.
 
 **Returns**: <code>HTMLDivElement</code> - A rendered questions page.
+
+</details>
+
+<details><summary><a href="../../client/src/components/pages/questions/questions.js" id="clientsrccomponentspagesquestionsquestionsjs">../client/src/components/pages/questions/questions.js</a></summary>
 
 </details>
 
