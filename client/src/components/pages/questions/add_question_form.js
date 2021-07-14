@@ -1,5 +1,8 @@
 import { add_question_data } from "../../../handlers/add_question_data";
 export const add_question_form = () => {
+  const f_div = document.createElement("div");
+  f_div.classList = "form_div";
+
   // Create a form synamically
   const form = document.createElement("form");
   form.id = "add_question";
@@ -96,6 +99,8 @@ export const add_question_form = () => {
   form.appendChild(br.cloneNode());
 
   form.addEventListener("submit", add_question_data);
-  console.log("form in component:", form);
-  return form;
+
+  f_div.appendChild(form);
+  //return form;
+  return f_div;
 };
