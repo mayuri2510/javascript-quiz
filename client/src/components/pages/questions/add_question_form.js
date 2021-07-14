@@ -1,5 +1,3 @@
-import { doc } from "prettier";
-
 export const add_question_form = () => {
   // Create a form synamically
   const form = document.createElement("form");
@@ -73,9 +71,7 @@ export const add_question_form = () => {
   form.appendChild(s);
   form.appendChild(br.cloneNode());
 
-  const bodycontainer = document.querySelector(".body");
-
-  console.log(bodycontainer);
-  bodycontainer.innerHTML = "";
-  bodycontainer.appendChild(form);
+  // s.addEventListener("click", add_question_data);
+  console.log("form in component:", form);
+  return form;
 };
