@@ -3,11 +3,17 @@ export const add_question_form = () => {
   const f_div = document.createElement("div");
   f_div.classList = "form_div";
 
-  // Create a form synamically
+  const h1 = document.createElement("h1");
+  h1.innerHTML = "Add Question";
+
+  const h3 = document.createElement("h3");
+  h3.innerHTML = "Add Options and Click Correct Answers  ";
+
+  // Create a form
   const form = document.createElement("form");
   form.id = "add_question";
   form.classList = "addQForm";
-
+  // input field for question
   const question = document.createElement("input");
   question.type = "text";
   question.id = "question";
@@ -76,6 +82,12 @@ export const add_question_form = () => {
   //----------------------------------------------
   const br = document.createElement("br");
   // Append the question input to the form
+  form.appendChild(h1);
+  form.appendChild(br.cloneNode());
+
+  form.appendChild(h3);
+  form.appendChild(br.cloneNode());
+
   form.appendChild(question);
   form.appendChild(br.cloneNode());
 
