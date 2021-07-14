@@ -8,7 +8,7 @@ export const add_question_form = () => {
   h1.innerHTML = "Add Question";
 
   const h3 = document.createElement("h3");
-  h3.innerHTML = "Add Options and Click Correct Answers  ";
+  h3.innerHTML = "Insert Options And Select Correct Answers  ";
 
   // Create a form
   const form = document.createElement("form");
@@ -21,7 +21,7 @@ export const add_question_form = () => {
   question.classList = "questionclass";
   question.placeholder = "Question";
   question.required = "required";
-  // checkboxes and options//
+  // Create checkboxes and options//
   const opt1 = document.createElement("input");
   opt1.type = "checkbox";
   opt1.id = "ch1";
