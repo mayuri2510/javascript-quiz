@@ -3,11 +3,14 @@ export const add_question_form = () => {
   // Create a form synamically
   const form = document.createElement("form");
   form.id = "add_question";
+  form.classList = "addQForm";
 
   const question = document.createElement("input");
   question.type = "text";
   question.id = "question";
+  question.classList = "questionclass";
   question.placeholder = "Question";
+  question.required = "required";
   //------------------------------------------------------------//
   const opt1 = document.createElement("input");
   opt1.type = "checkbox";
@@ -18,6 +21,7 @@ export const add_question_form = () => {
   label1.type = "text";
   label1.id = "option1";
   label1.classList = "opt";
+  label1.required = "required";
   label1.appendChild(document.createTextNode("opt1"));
 
   //-----------------------------------------------------//
@@ -30,6 +34,7 @@ export const add_question_form = () => {
   label2.type = "text";
   label2.id = "option2";
   label2.classList = "opt";
+  label2.required = "required";
   label2.appendChild(document.createTextNode("opt2"));
 
   //------------------------------------------------------------//
@@ -43,6 +48,7 @@ export const add_question_form = () => {
   label3.type = "text";
   label3.id = "option3";
   label3.classList = "opt";
+  label3.required = "required";
   label3.appendChild(document.createTextNode("opt3"));
   //-------------------------------------------------------------//
 
@@ -55,12 +61,14 @@ export const add_question_form = () => {
   label4.type = "text";
   label4.id = "option4";
   label4.classList = "opt";
+  label4.required = "required";
   label4.appendChild(document.createTextNode("opt4"));
   //-------------------------------------------------------------//
 
   // create a submit button
   var s = document.createElement("BUTTON");
-  s.innerHTML = "submitt";
+  s.innerHTML = "Submit";
+  s.classList = "submit";
 
   //----------------------------------------------
   const br = document.createElement("br");
