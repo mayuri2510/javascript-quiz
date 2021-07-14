@@ -7,7 +7,6 @@ export const add_question = (event) => {
 
   const bodycontainer = document.querySelector(".body");
 
-  console.log("bodycontainer:", bodycontainer);
   bodycontainer.innerHTML = "";
   bodycontainer.appendChild(form);
 };
