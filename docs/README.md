@@ -27,8 +27,10 @@
       - [instructions.js](#clientsrccomponentspageshomeinstructionsjs)
       - [number-of-questions.js](#clientsrccomponentspageshomenumber-of-questionsjs)
     - questions
+      - [delete-button.js](#clientsrccomponentspagesquestionsdelete-buttonjs)
       - [index.js](#clientsrccomponentspagesquestionsindexjs)
       - [questions.js](#clientsrccomponentspagesquestionsquestionsjs)
+      - [user-choice.js](#clientsrccomponentspagesquestionsuser-choicejs)
     - quiz
       - [back-btn.js](#clientsrccomponentspagesquizback-btnjs)
       - [index.js](#clientsrccomponentspagesquizindexjs)
@@ -42,6 +44,7 @@
   - [back-question-btn.js](#clientsrchandlersback-question-btnjs)
   - [change-answer.js](#clientsrchandlerschange-answerjs)
   - [change-greeting.js](#clientsrchandlerschange-greetingjs)
+  - [delete-question.js](#clientsrchandlersdelete-questionjs)
   - [next-question-btn.js](#clientsrchandlersnext-question-btnjs)
   - [restart-quiz.js](#clientsrchandlersrestart-quizjs)
 - init
@@ -140,6 +143,10 @@ The home page.
 
 ### /questions
 
+<details><summary><a href="../../client/src/components/pages/questions/delete-button.js" id="clientsrccomponentspagesquestionsdelete-buttonjs">../client/src/components/pages/questions/delete-button.js</a></summary>
+
+</details>
+
 <details><summary><a href="../../client/src/components/pages/questions/index.js" id="clientsrccomponentspagesquestionsindexjs">../client/src/components/pages/questions/index.js</a></summary>
 
 <a name="questions"></a>
@@ -153,6 +160,10 @@ The questions page.
 </details>
 
 <details><summary><a href="../../client/src/components/pages/questions/questions.js" id="clientsrccomponentspagesquestionsquestionsjs">../client/src/components/pages/questions/questions.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/pages/questions/user-choice.js" id="clientsrccomponentspagesquestionsuser-choicejs">../client/src/components/pages/questions/user-choice.js</a></summary>
 
 </details>
 
@@ -217,6 +228,10 @@ The quiz page.
 </details>
 
 <details><summary><a href="../../client/src/handlers/change-greeting.js" id="clientsrchandlerschange-greetingjs">../client/src/handlers/change-greeting.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/delete-question.js" id="clientsrchandlersdelete-questionjs">../client/src/handlers/delete-question.js</a></summary>
 
 </details>
 
