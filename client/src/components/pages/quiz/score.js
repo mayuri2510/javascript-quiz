@@ -20,7 +20,6 @@ const Score = () => {
         userScore++;
       }
     }
-    console.log("userScore", userScore);
   }
 
   const p = document.createElement("p");
