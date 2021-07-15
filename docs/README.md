@@ -30,6 +30,7 @@
       - [delete-button.js](#clientsrccomponentspagesquestionsdelete-buttonjs)
       - [index.js](#clientsrccomponentspagesquestionsindexjs)
       - [questions.js](#clientsrccomponentspagesquestionsquestionsjs)
+      - [user-choice.js](#clientsrccomponentspagesquestionsuser-choicejs)
     - quiz
       - [back-btn.js](#clientsrccomponentspagesquizback-btnjs)
       - [index.js](#clientsrccomponentspagesquizindexjs)
@@ -159,6 +160,10 @@ The questions page.
 </details>
 
 <details><summary><a href="../../client/src/components/pages/questions/questions.js" id="clientsrccomponentspagesquestionsquestionsjs">../client/src/components/pages/questions/questions.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/pages/questions/user-choice.js" id="clientsrccomponentspagesquestionsuser-choicejs">../client/src/components/pages/questions/user-choice.js</a></summary>
 
 </details>
 
