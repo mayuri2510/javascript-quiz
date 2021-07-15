@@ -1,8 +1,6 @@
 import { state } from "../init/state";
 export const add_question_data = (event) => {
   event.preventDefault();
-  //----- checkbox------
-  // const check_box = document.querySelectorAll(".chk");
 
   // get value from form
   const newQuestion = {
@@ -42,10 +40,8 @@ export const add_question_data = (event) => {
     ],
   };
   state.questions.push(newQuestion);
-
+  // console.log("Test", state.questions);
   alert("Question Added Succefully!");
   const form_Reset = document.querySelector(".addQForm");
   form_Reset.reset();
-
-  //console.log("Test", state.questions);
 };

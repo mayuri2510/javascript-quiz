@@ -21,6 +21,7 @@ export const add_question_form = () => {
   question.classList = "questionclass";
   question.placeholder = "Question";
   question.required = "required";
+
   // Create checkboxes and options//
   const opt1 = document.createElement("input");
   opt1.type = "checkbox";

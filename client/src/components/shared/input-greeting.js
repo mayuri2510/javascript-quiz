@@ -13,7 +13,7 @@ export const inputGreeting = () => {
   input.addEventListener("keyup", changeGreeting);
 
   const container = document.createElement("div");
-  container.classList = "mayuri patil";
+  container.classList = "";
   container.appendChild(add_btn());
   // container.appendChild(input);
   // container.appendChild(mirror);
