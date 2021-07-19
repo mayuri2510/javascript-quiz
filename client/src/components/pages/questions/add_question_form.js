@@ -14,6 +14,7 @@ export const add_question_form = () => {
   const form = document.createElement("form");
   form.id = "add_question";
   form.classList = "addQForm";
+  //form.method = "POST";
   // input field for question
   const question = document.createElement("input");
   question.type = "text";
@@ -73,6 +74,7 @@ export const add_question_form = () => {
 
   // create a submit button
   const s = document.createElement("BUTTON");
+  s.type = "submit";
   s.innerHTML = "Submit";
   s.classList = "submit";
 

@@ -76,26 +76,26 @@ export const data = {
       ],
     },
     {
-      question: "What does JSON.parse do?",
+      question: "What are all the looping structures in JavaScript?",
       answered: false,
       answers: [
         {
-          text: "Foobar.",
-          correct: false,
+          text: "For Loop",
+          correct: true,
           selected: false,
         },
         {
-          text: "Transforms an object into a JSON string.",
-          correct: false,
+          text: "While Loop",
+          correct: true,
           selected: false,
         },
         {
-          text: "Only validates a JSON object.",
-          correct: false,
+          text: "Do-while Loop",
+          correct: true,
           selected: false,
         },
         {
-          text: "Transforms values to an Array",
+          text: "If Else Loop",
           correct: false,
           selected: false,
         },

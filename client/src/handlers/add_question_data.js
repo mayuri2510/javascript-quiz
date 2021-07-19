@@ -1,30 +1,30 @@
 import { state } from "../init/state";
 export const add_question_data = (event) => {
   event.preventDefault();
-
+  const form = event.target;
   // get value from form
   const newQuestion = {
-    question: document.querySelector("#question").value,
+    question: form.question.value,
     answered: false,
     answers: [
       {
-        text: document.querySelector("#option1").value,
-        correct: document.querySelector("#ch1").checked,
+        text: form.option1.value,
+        correct: form.ch1.checked,
         selected: false,
       },
       {
-        text: document.querySelector("#option2").value,
-        correct: document.querySelector("#ch2").checked,
+        text: form.option2.value,
+        correct: form.ch2.checked,
         selected: false,
       },
       {
-        text: document.querySelector("#option3").value,
-        correct: document.querySelector("#ch3").checked,
+        text: form.option3.value,
+        correct: form.ch3.checked,
         selected: false,
       },
       {
-        text: document.querySelector("#option4").value,
-        correct: document.querySelector("#ch4").checked,
+        text: form.option4.value,
+        correct: form.ch4.checked,
         selected: false,
       },
     ],
@@ -40,7 +40,7 @@ export const add_question_data = (event) => {
     ],
   };
   state.questions.push(newQuestion);
-  // console.log("Test", state.questions);
+  //console.log("Test", state.questions);
   alert("Question Added Succefully!");
   const form_Reset = document.querySelector(".addQForm");
   form_Reset.reset();
