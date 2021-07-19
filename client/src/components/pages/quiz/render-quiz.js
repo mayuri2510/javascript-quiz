@@ -8,7 +8,7 @@ const RenderQuiz = (questionIndex) => {
   const currentQuestion = state.questions[questionIndex];
   questions.innerText = currentQuestion.question;
   const answers = document.createElement("ul");
-  console.log("state.questions[questionIndex]", state.questions[questionIndex]);
+  // console.log("state.questions[questionIndex]", state.questions[questionIndex]);
   let answerCounter = 0;
   for (const item of currentQuestion.answers) {
     const li = document.createElement("li");

@@ -2,7 +2,7 @@ import { add_question_form } from "../components/pages/questions/add_question_fo
 
 export const add_question = (event) => {
   const target = event.target;
-  //console.log("target:", target);
+
   const form = add_question_form();
 
   const bodycontainer = document.querySelector(".body");
