@@ -1,6 +1,7 @@
 import { state } from "../../init/state.js";
 import { changeGreeting } from "../../handlers/change-greeting.js";
 import { reverse } from "../../logic/reverse.js";
+import { add_btn } from "../pages/questions/add_question_btn.js";
 
 export const inputGreeting = () => {
   const mirror = document.createElement("code");
@@ -12,6 +13,8 @@ export const inputGreeting = () => {
   input.addEventListener("keyup", changeGreeting);
 
   const container = document.createElement("div");
+  container.classList = "";
+  container.appendChild(add_btn());
   // container.appendChild(input);
   // container.appendChild(mirror);
   return container;

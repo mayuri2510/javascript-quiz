@@ -21,10 +21,12 @@ export const home = () => {
 
   container.appendChild(head_ing);
   container.appendChild(makeInstructions());
-  container.appendChild(RestartButton(() => {
-    window.location.href = '/quiz';
-  }));
-  container.appendChild(inputGreeting());
+  container.appendChild(
+    RestartButton(() => {
+      window.location.href = "/quiz";
+    })
+  );
+  //container.appendChild(inputGreeting());
 
   return container;
 };

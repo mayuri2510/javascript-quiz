@@ -12,5 +12,7 @@ export const questions = () => {
 
   container.appendChild(inputGreeting());
   container.appendChild(AllQuestions());
+  // container.appendChild(add_question_data() );
+
   return container;
 };

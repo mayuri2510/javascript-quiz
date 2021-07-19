@@ -27,6 +27,8 @@
       - [instructions.js](#clientsrccomponentspageshomeinstructionsjs)
       - [number-of-questions.js](#clientsrccomponentspageshomenumber-of-questionsjs)
     - questions
+      - [add_question_btn.js](#clientsrccomponentspagesquestionsadd_question_btnjs)
+      - [add_question_form.js](#clientsrccomponentspagesquestionsadd_question_formjs)
       - [index.js](#clientsrccomponentspagesquestionsindexjs)
       - [questions.js](#clientsrccomponentspagesquestionsquestionsjs)
     - quiz
@@ -39,6 +41,8 @@
     - [input-greeting.js](#clientsrccomponentssharedinput-greetingjs)
     - [restart-btn.js](#clientsrccomponentssharedrestart-btnjs)
 - handlers
+  - [add_question.js](#clientsrchandlersadd_questionjs)
+  - [add_question_data.js](#clientsrchandlersadd_question_datajs)
   - [back-question-btn.js](#clientsrchandlersback-question-btnjs)
   - [change-answer.js](#clientsrchandlerschange-answerjs)
   - [change-greeting.js](#clientsrchandlerschange-greetingjs)
@@ -140,6 +144,14 @@ The home page.
 
 ### /questions
 
+<details><summary><a href="../../client/src/components/pages/questions/add_question_btn.js" id="clientsrccomponentspagesquestionsadd_question_btnjs">../client/src/components/pages/questions/add_question_btn.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/pages/questions/add_question_form.js" id="clientsrccomponentspagesquestionsadd_question_formjs">../client/src/components/pages/questions/add_question_form.js</a></summary>
+
+</details>
+
 <details><summary><a href="../../client/src/components/pages/questions/index.js" id="clientsrccomponentspagesquestionsindexjs">../client/src/components/pages/questions/index.js</a></summary>
 
 <a name="questions"></a>
@@ -207,6 +219,14 @@ The quiz page.
 ---
 
 # /handlers
+
+<details><summary><a href="../../client/src/handlers/add_question.js" id="clientsrchandlersadd_questionjs">../client/src/handlers/add_question.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/add_question_data.js" id="clientsrchandlersadd_question_datajs">../client/src/handlers/add_question_data.js</a></summary>
+
+</details>
 
 <details><summary><a href="../../client/src/handlers/back-question-btn.js" id="clientsrchandlersback-question-btnjs">../client/src/handlers/back-question-btn.js</a></summary>
 

@@ -1,8 +1,9 @@
-@import url('./body.css');
-@import url('./navbar.css');
-@import url('./bottom.css');
-@import url('./restart-btn.css');
-@import url('./instructions.css');
+@import url("./body.css");
+@import url("./navbar.css");
+@import url("./bottom.css");
+@import url("./restart-btn.css");
+@import url("./instructions.css");
 @import url("./next-btn.css");
 @import url("./back-btn.css");
 @import url("./all-questions.css");
+@import url("./question-form.css");

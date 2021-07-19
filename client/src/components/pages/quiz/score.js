@@ -11,7 +11,6 @@ const Score = () => {
       let allAnswersCorrect = true;
       for (let answerIndex in question.answers) {
         const answer = question.answers[answerIndex];
-
         if (answer.selected !== answer.correct) {
           allAnswersCorrect = false;
         }
